@@ -6,6 +6,9 @@
 "image_name": "reddit-base-{{timestamp}}",
 "source_image": "ubuntu-1604-xenial-v20200317",
 "zone": "europe-west1-b",
+"disk_size": "10",
+"disk_type": "pd-standard",
+"tags": ["puma-server"],
 "ssh_username": "appuser"
 }
 ],
