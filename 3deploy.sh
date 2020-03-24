@@ -9,5 +9,4 @@ cd ./raddit
 sudo bundle install
 
 echo "  ----- start the application -----  "
-sudo systemctl start raddit
-sudo systemctl enable raddit
+sudo puma -d
