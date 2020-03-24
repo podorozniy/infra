@@ -6,14 +6,14 @@
 "image_name": "reddit-base-{{timestamp}}",
 "source_image": "ubuntu-1604-xenial-v20200317",
 "zone": "europe-west1-b",
-"ssh_username": "appuser",
-"machine_type": "f1-micro"
+"ssh_username": "appuser"
 }
 ],
 "provisioners": [
 {
 "type": "shell",
-"script": "scripts/1install_ruby.sh"
+"script": "scripts/1install_ruby.sh",
+"execute_command": "sudo {{.Path}}"
 },
 {
 "type": "shell",
