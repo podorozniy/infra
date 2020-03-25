@@ -25,7 +25,7 @@
 },
 {
 "type": "shell",
-"script": "scripts/3deploy.sh",
+"script": "scripts/3deploy.sh"
 }
 ]
 }
