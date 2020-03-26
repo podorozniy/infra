@@ -3,7 +3,7 @@
 {
 "type": "googlecompute",
 "project_id": "canvas-victor-271415",
-"image_name": "reddit-base-{{timestamp}}",
+"image_name": "reddit-base-immut-{{timestamp}}",
 "source_image": "ubuntu-1604-xenial-v20200317",
 "zone": "europe-west1-b",
 "disk_size": "10",

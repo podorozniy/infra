@@ -2,7 +2,7 @@
 "builders": [
 {
 "type": "googlecompute",
-"project_id": "canvas-victor-271415",
+"project_id": "infra-272210",
 "image_name": "reddit-base-{{timestamp}}",
 "source_image": "ubuntu-1604-xenial-v20200317",
 "zone": "europe-west1-b",

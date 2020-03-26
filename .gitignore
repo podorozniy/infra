@@ -4,3 +4,8 @@ prometheus/
 
 ## python specific
 *.pyc
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
