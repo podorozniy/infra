@@ -9,3 +9,5 @@ prometheus/
 *.tfstate.backup
 *.tfvars
 .terraform/
+appuser
+appuser.pub
