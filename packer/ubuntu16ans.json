@@ -1,0 +1,21 @@
+{
+"builders": [
+{
+"type": "googlecompute",
+"project_id": "infra-272210",
+"image_name": "reddit-ans-{{timestamp}}",
+"source_image": "ubuntu-1604-xenial-v20200317",
+"zone": "europe-west1-b",
+"disk_size": "10",
+"disk_type": "pd-standard",
+"tags": ["puma-server"],
+"ssh_username": "appuser"
+}
+],
+"provisioners": [
+{
+"type": "ansible",
+"playbook_file": "/home/test/devops/infra/ansible/reddit_app.yml"
+}
+]
+}
