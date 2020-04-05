@@ -9,3 +9,4 @@ prometheus/
 *.tfstate.backup
 *.tfvars
 .terraform/
+*.retry
