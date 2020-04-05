@@ -1,0 +1,5 @@
+plugin: gcp_compute
+projects:
+  - infra-272210
+auth_kind: serviceaccount
+service_account_file: "/home/test/.ssh/infra-272210-4ebd31475989.json"
